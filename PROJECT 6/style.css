@@ -64,6 +64,95 @@ nav ul li {
     margin-left: 30px;
 }
 
+/* HEADER SECTION  */
+#header {
+    width: 100%;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+
+#header #logo {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#header #logo #logoName {
+    height: 32px;
+    padding-left: 8px;
+}
+
+#header #logo #logoR {
+    height: 47px;
+}
+
+#header #list {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    padding-right: 60px;
+}
+
+#header ul {
+    display:flex;
+    align-items: center;
+    padding: 0 30px;
+}
+
+#header ul li {
+    list-style-type: none;
+    padding-left: 30px;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#header #list #searchBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid #C9C5C5;
+    width: 260px;
+    height: 52px;
+}
+
+#header #list #searchBtn button {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: none;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: end;
+    padding-right: 25px;
+    cursor: pointer;
+}
+
+#header #list #searchBtn i {
+    left: 0;
+    font-size: 15px;
+    padding-left: 23px;
+    cursor: pointer;
+}
+
+/* LANDING PAGE SECTION */
+#landingPage {
+    height: 365px;
+    width: 100%;
+}
+
+#landingPage img {
+    height: 100%;
+    width: 100%;
+}
 
 
 
