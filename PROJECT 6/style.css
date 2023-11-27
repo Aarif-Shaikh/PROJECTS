@@ -154,6 +154,115 @@ nav ul li {
     width: 100%;
 }
 
+/* SECTION ONE */
+#secOne {
+    height: 540px;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+}
 
+#secOne #left-content {
+    width: 45%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #484646;
+    padding-right: 223px;
+}
+
+#secOne #left-content span {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#secOne #left-content h3 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #777;
+    padding-bottom: 20px;
+}
+
+#secOne #left-content button {
+    border: none;
+    background-color: #1c1d21;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#secOne #right-content {
+    height: 100%;
+    width: 55%;
+}
+
+#secOne #right-content #rightC {
+    height: 100%;
+    width: 100%;
+}
+
+/* SECTION TWO */
+#secTwo {
+    height: 540px;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    background-color: #F2F5F9;
+}
+
+#secTwo #right-content {
+    width: 45%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #484646;
+    padding-left: 105px;
+    padding-right: 105px;
+}
+
+#secTwo #right-content span {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#secTwo #right-content h3 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #777;
+    padding-bottom: 20px;
+}
+
+#secTwo #right-content button {
+    border: none;
+    background-color: #1c1d21;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#secTwo #left-content {
+    height: 100%;
+    width: 55%;
+}
+
+#secTwo #left-content #leftC {
+    height: 100%;
+    width: 100%;
+}
+
+/* SECTION THREE */
+#secThree {
+    
+}
 
 
