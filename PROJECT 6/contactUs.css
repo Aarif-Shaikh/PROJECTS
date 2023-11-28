@@ -34,13 +34,17 @@ h1 {
     margin-bottom: 10px;
 }
 
+h1 a {
+    text-decoration: none;
+}
+
 .container p {
     margin-bottom: 40px;
 }
 
 .input-row {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
     margin-bottom: 20px;
 }
 
@@ -54,6 +58,7 @@ input {
     border-bottom: 1px solid #ccc;
     outline: none;
     padding-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 textarea {
