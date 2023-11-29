@@ -266,6 +266,10 @@ nav ul li a {
     width: 55%;
 }
 
+#secTwo #left-content img {
+    transform: scaleX(-1);
+}
+
 #secTwo #left-content #leftC {
     height: 100%;
     width: 100%;
@@ -331,25 +335,47 @@ nav ul li a {
     background-color: #f2f5f9;
     text-align: center;
     position: relative;
-    /* padding: 150px; */
-    /* position: absolute; */
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-    /* flex-direction: column; */
-    /* display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 200px));
-    grid-gap: 10px; */
 }
 
 #secFour #secFour-images {
     display: flex;
     flex-wrap: wrap;
-    /* align-items: center; */
     justify-content: center;
-    /* height: 100%; */
     width: 100%;
     padding: 58px 268px 7px;
+}
+
+#secFour #secFour-images #image1:hover {
+    transform: rotate(-30deg);
+    transition: transform 1s;
+}
+#secFour #secFour-images #image2:hover {
+    transform: rotate(30deg);
+    transition: transform 1s;
+}
+#secFour #secFour-images #image3:hover {
+    transform: rotate(-30deg);
+    transition: transform 1s;
+}
+#secFour #secFour-images #image4:hover {
+    transform: rotate(30deg);
+    transition: transform 1s;
+}
+#secFour #secFour-images #image5:hover {
+    transform: rotate(-30deg);
+    transition: transform 1s;
+}
+#secFour #secFour-images #image6:hover {
+    transform: rotate(30deg);
+    transition: transform 1s;
+}
+#secFour #secFour-images #image7:hover {
+    transform: rotate(-30deg);
+    transition: transform 1s;
+}
+#secFour #secFour-images #image8:hover {
+    transform: rotate(30deg);
+    transition: transform 1s;
 }
 
 #secFour  #secFour-images img {
