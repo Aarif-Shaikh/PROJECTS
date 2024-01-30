@@ -632,6 +632,10 @@ footer .copyright {
     line-height: 25px;
 }
 
+/* BLOG SECTION */
+#page-header.blog-header {
+    background-image: url(images/b19.jpg);
+}
 
 /* QUERRY SECTION */
 .section-p1 {
